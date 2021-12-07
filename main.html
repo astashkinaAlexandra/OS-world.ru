@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Что такое операционная система?</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/blocks/header.css" type="text/css">
+      <link rel="stylesheet" href="css/blocks/history.css" type="text/css">
+      <link rel="stylesheet" href="css/blocks/footer.css" type="text/css">
+      <link rel="stylesheet" href="css/reset.css" type="text/css">
+   </head>
+   <body>
+   	<div class="wrapper">
+         <header class="header">
+            <div class="container">
+               <div class="header_content">
+                  <div class="header_logo"><a href="index.html" class="logo">OS-world.ru</a></div>
+                  <div class="header_burger">
+                     <span></span>
+                  </div>
+                  <nav class="menu">
+                     <ul class="menu_list">
+                        <li>
+                           <a href="main.html" class="menu_link">Общее</a>
+                        </li>
+                        <li>
+                           <a href="#" class="menu_link">Виды</a>
+                           <span class="menu_arrow arrow"></span>
+                           <ul class="sub-menu_list">
+                              <li>
+                                 <a href="windows.html" class="sub-menu_link">Windows</a>
+                              </li>
+                              <li>
+                                <a href="linux.html" class="sub-menu_link">Linux</a>
+                              </li>
+                              <li>
+                                 <a href="macos.html" class="sub-menu_link">Mac OS</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="history.html" class="menu_link">История</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </header>
+      	<main class="main">
+         <div class="content">
+      		<div class="container">
+               <div class="page_title">
+                  <h1>Операционная система</h1>
+               </div>
+               
+               <p><strong>Операционная система</strong>, сокр. ОС (англ. operating system, OS) — комплекс взаимосвязанных программ, предназначенных для управления ресурсами вычислительного устройства и организации взаимодействия с пользователем.</p>
+               <h2 class="section_title">Функции операционной системы</h2>
+               <h3 class="section_subtitle">Основные функции:</h3>
+               <ul class="section_list">
+                  <li>Исполнение запросов программ (ввод и вывод данных, запуск и остановка других программ, выделение и освобождение дополнительной памяти и др.).</li>
+                  <li>Загрузка программ в оперативную память и их выполнение.</li>
+                  <li>Стандартизованный доступ к периферийным устройствам (устройства ввода-вывода).</li>
+                  <li>Управление оперативной памятью (распределение между процессами, организация виртуальной памяти).</li>
+                  <li>Управление доступом к данным на энергонезависимых носителях (таких как жёсткий диск, оптические диски и др.), организованным в той или иной файловой системе.</li>
+                  <li>Обеспечение пользовательского интерфейса.</li>
+                  <li>Сохранение информации об ошибках системы.</li>
+               </ul>
+               <h3 class="section_subtitle">Дополнительные функции:</h3>
+               <ul class="section_list">
+                  <li>Параллельное или псевдопараллельное выполнение задач (многозадачность).</li>
+                  <li>Эффективное распределение ресурсов вычислительной системы между процессами.</li>
+                  <li>Разграничение доступа различных процессов к ресурсам.</li>
+                  <li>Организация надёжных вычислений (невозможности одного вычислительного процесса намеренно или по ошибке повлиять на вычисления в другом процессе), основана на разграничении доступа к ресурсам.</li>
+                  <li>Взаимодействие между процессами: обмен данными, взаимная синхронизация.</li>
+                  <li>Защита самой системы, а также пользовательских данных и программ от действий пользователей (злонамеренных или по незнанию) или приложений.</li>
+                  <li>Многопользовательский режим работы и разграничение прав доступа.</li>
+               </ul>   
+               <p><strong>Ядро</strong> — центральная часть операционной системы, управляющая выполнением процессов, ресурсами вычислительной системы и предоставляющая процессам координированный доступ к этим ресурсам. Основными ресурсами являются процессорное время, память и устройства ввода-вывода. Доступ к файловой системе и сетевое взаимодействие также могут быть реализованы на уровне ядра.</p>              
+               <h2 class="section_title">В состав ОС непременно входят:</h2>
+               <ul class="section_list">
+                  <li><strong>Программный модуль</strong>, управляющий файловой системой: процесс работы компьютера в сводится к обмену файлами между устройствами</li>
+                  <li><strong>Командный процессор</strong> – специальная программа, которая запрашивает у пользователя команды и выполняет их. Пользователь может дать команду запуска программы, выполнения какой-либо операции над файлами (копирование, удаление, переименование), вывода документа на печать и так далее. Операционная система должна эту команду выполнить</li>
+                  <li><strong>Драйверы</strong> – программы, которые управляют работой устройств. Каждому устройству соответствует свой драйвер. Технология «Plug and Play» (подключи и играй) позволяет автоматизировать подключение новых устройств. В процессе установки Windows определяет тип и конкретную модель установленного устройства и подключает необходимый для его функционирования драйвер. При включении компьютера произво-дится загрузка драйверов в оперативную память. Пользователь имеет возможность вручную установить или переустановить драйверы.</li>
+                  <li>Программные модули <strong>графического интерфейса</strong> – программы, позволяющие пользователю вводить команды с помощью мыши.</li>
+               </ul>
+               <p>Графический интерфейс пользователя (ГИП, ГПИ) — разновидность пользовательского интерфейса, в котором элементы интерфейса (меню, кнопки, значки, списки и т. п.), представленные пользователю на дисплее, исполнены в виде графических изображений.</p>
+               <p>В отличие от интерфейса командной строки, в ГПИ пользователь имеет произвольный доступ (с помощью устройств ввода — клавиатуры, мыши, джойстика и т. п.) ко всем видимым экранным объектам (элементам интерфейса) и осуществляет непосредственное манипулирование ими. Чаще всего элементы интерфейса в ГИ реализованы на основе метафор и отображают их назначение и свойства, что облегчает понимание и освоение программ неподготовленными пользователями.</p>
+               <p>Одним из требований к хорошему графическому интерфейсу программной системы является концепция «делай то, что я имею в виду» или DWIM (англ. Do What I Mean). DWIM требует, чтобы система работала предсказуемо, чтобы пользователь заранее интуитивно понимал, какое действие выполнит программа после получения его команды.</p>
+               <ul class="section_list">
+                  <li><strong>Утилиты</strong> – сервисные программы для обслуживания дисков (проверять, сжимать, дефрагментировать и тд), выполнения операций с файлами (архивировать, копировать и тд), и работы в компьютерных сетях</li>
+                  <li><strong>Справочная система</strong> – получение информации о функционировании ОС в целом и о работе её отдельных модулей</li>
+                  <li><strong>Файлы ОС</strong> хранятся во внешней, долговременной памяти (на жестком, гибком или лазерном диске). Но программы могут выполняться, только если они находятся в оперативной памяти, поэтому файлы ОС необходимо загрузить в оперативную память.</li>
+               </ul>
+               <h2 class="section_title">Виды операционных систем</h2>
+               <p>Существуют три наиболее популярных операционных систем для компьютеров: Microsoft Windows, Apple Mac OS X и Linux.</p>
+
+               <div class="posts_list">
+                  <article id="post1" class="post">
+                     <div class="post_image"><a href=""><img src="image/desktops/windows.jpeg"></a></div>
+                     <div class="post_content">
+                        <h2 class="post_title">Microsoft Windows</h2>
+                        <p>Компания Microsoft создала операционную систему Windows в середине 1980-х годов. За последующие годы были выпущены много версий Windows, но наиболее популярными из них являются Windows 10 (выпущен в 2015 году), Windows 8 (2012), Windows 7 (2009), Windows Vista (2007), и Windows XP (2001). Windows поставляется предустановленной на большинстве новых компьютерах, и является самой популярной операционной системой в мире.</p>
+                        <div class="post_footer">
+                           <a class="more_link" href="windows.html">Продолжить чтение</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article id="post2" class="post">
+                     <div class="post_image"><a href=""><img src="image/desktops/macOS.jpeg"></a></div>
+                     <div class="post_content">
+                        <h2 class="post_title">Apple Mac OS X</h2>
+                        <p>Mac OS представляет собой линейку операционных систем, созданных компанией Apple. Она поставляется предустановленной на всех новых компьютерах Macintosh или Mac. Последние версии этой операционной системы известны как OS X. А именно Yosetime (выпущенный в 2014 году), Mavericks (2013), Mountine Lion (2012), Lion (2011), и Show Leopard (2009). Также есть Mac OS X Server, который предназначен для работы на серверах.</p>
+                        <div class="post_footer">
+                              <a class="more_link" href="macos.html">Продолжить чтение</a>
+                        </div>
+                     </div>
+                  </article>
+                  <article id="post3" class="post">
+                     <div class="post_image"><a href=""><img src="image/desktops/linux.jpeg"></a></div>
+                     <div class="post_content">
+                        <h2 class="post_title">Linux</h2>
+                        <p>Linux — семейка операционных систем с открытым исходным кодом. Это значит, они могут модифицироваться (изменяться) и распространятся любым человеком по всему миру. Это очень отличает эту ОС от других, таких как Windows, которая может изменяться и распространяться только самим владельцем (Microsoft). Преимущества Линукса в том, что он бесплатный, и есть много различных версий на выбор. Каждая версия имеет свой внешний вид, и самые популярные из них это Ubuntu, Mint и Fedora.</p>
+                        <div class="post_footer">
+                           <a class="more_link" href="linux.html">Продолжить чтение</a>
+                        </div>
+                     </div>
+                  </article>
+               </div> <!-- конец div class="posts-list"-->   
+            </div>
+			</div>   
+      	</main>
+      	<footer class="footer">
+            <div class="container">
+               <div class="footer_top">
+                  <h3 class="footer_title">OS-world.ru</h3>
+                  <p>На этом сайте вы можете получить различную информацию об операционных системах, ознакомиться с историей их развития и подробнее узнать о самых популярных операционных системах.</p>
+                  <ul class="footer_socials">
+                     <a href="https://ru-ru.facebook.com/" class="social_icons">
+                        <img src="image/social_icons/facebook.png" alt="facebook"></a>
+                     </a>
+                     <a href="https://twitter.com/?lang=ru" class="social_icons">
+                        <img src="image/social_icons/twitter.png" alt="twitter"></a>
+                     </a>
+                     <a href="https://vk.com/" class="social_icons">
+                        <img src="image/social_icons/vk.png" alt="vk"></a>
+                     </a>
+                     <a href="https://www.pinterest.ru/" class="social_icons">
+                        <img src="image/social_icons/pinterest.png" alt="pinterest"></a>
+                     </a>
+                  </ul>
+               </div>
+               <div class="footer_bottom">
+                  <div class="footer-bottom_content">
+                     <p class="copyright">&copy; 2021 OS-world.ru</p>
+                     <div class="footer_menu">
+                        <ul class="footer-menu_list">
+                           <li><a href="main.html" class="footer-menu_link">Общее</a></li>
+                           <li><a href="history.html" class="footer-menu_link">История</a></li>
+                           <li><a href="windows.html" class="footer-menu_link">Виды</a></li>
+                        </ul>
+                     </div>   
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
